@@ -42,14 +42,17 @@
         <module>Chapter04</module>
         <module>Chapter05</module>
         <module>Chapter06</module>
+        <module>Chapter07</module>
+        <module>Chapter08</module>
         <module>Chapter09</module>
         <module>chapter10</module>
+        <module>chapter13</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sonar.jacoco.reportPath>${project.build.directory}/coverage-reports/jacoco-ut.exec</sonar.jacoco.reportPath>
-        <spring-batch.version>4.1.0.BUILD-SNAPSHOT</spring-batch.version>
+        <spring-batch.version>4.1.0.RELEASE</spring-batch.version>
     </properties>
 
     <build>
